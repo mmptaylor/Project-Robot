@@ -11,7 +11,8 @@ public class TerminalScript : MonoBehaviour
     //public int y;
     private string nameVar;
     bool clickFlag;
-    static int previousLevel;
+    
+
 
     private void Start()
     {
@@ -32,7 +33,7 @@ public class TerminalScript : MonoBehaviour
                 GameObject.Find("Player").GetComponent<PlayerController>().hasAI = false;
                 //GameObject.Find("Player").GetComponent<PlayerController>().pcAI = gameObject.name;
                 GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().isLoaded = true;
-                clickFlag = false;
+                //clickFlag = false;
             }
             else if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == false) //&& GameObject.Find("Player").GetComponent<PlayerController>().pcAI == gameObject.name)
             {
@@ -43,13 +44,24 @@ public class TerminalScript : MonoBehaviour
                     GameObject.Find("Player").GetComponent<PlayerController>().hasAI = true;
                     GameObject.Find("Player").GetComponent<PlayerController>().pcAI = "empty";
                     GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().isLoaded = false;
-                    clickFlag = false;
+                    //clickFlag = false;
                 }
                 else
                 {
-                    previousLevel = SceneManager.GetActiveScene().buildIndex;
-                    print(previousLevel);
-                    SceneManager.LoadScene("Lose", LoadSceneMode.Additive);
+                    //GameObject.Find("LoseOverlay").SetActive(true);
+                    //GameObject.Find("MainCamera").SetActive(false);
+                    //GameObject.Find("TopDownCamera").SetActive(false);
+                    //GameObject.Find("Lose Menu").SetActive(true);
+                    //GameObject.Find("Lose Camera").SetActive(true);
+                    
+                    //mainCamera.SetActive(false);
+                    //topDownCamera.SetActive(false);
+                    //Time.timeScale = 0f;                   
+                    //GameManager.previousLevel = SceneManager.GetActiveScene().buildIndex;
+                    //print(previousLevel);
+                    //SceneManager.SetActiveScene(SceneManager.GetSceneByName("Lose"));
+                    SceneManager.LoadScene("Lose");
+
                 }
             }
         }
