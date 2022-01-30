@@ -11,6 +11,7 @@ public class TerminalScript : MonoBehaviour
     //public int y;
     private string nameVar;
     bool clickFlag;
+    static int previousLevel;
 
     private void Start()
     {
@@ -46,7 +47,9 @@ public class TerminalScript : MonoBehaviour
                 }
                 else
                 {
-                    SceneManager.LoadScene("Lose");
+                    previousLevel = SceneManager.GetActiveScene().buildIndex;
+                    print(previousLevel);
+                    SceneManager.LoadScene("Lose", LoadSceneMode.Additive);
                 }
             }
         }
