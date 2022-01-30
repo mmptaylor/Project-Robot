@@ -1,13 +1,13 @@
 
 
 <p align="center">
-<a href="https://http.cat/404">
+<a href="https://ckrcok.github.io/Project-Robot/">
   <img src="Global-Jam-PlaceHolder\Assets\Icons\PROJECT ROBOTO.png" width="150" title="hover text">
   </a>
 </p>
 <h1 align="center">Josh Fight - The Video Game</h1>
 
-[<img  src="https://http.cat/404" align="center" width="100%">](https://www.youtube.com/embed/q-aD6699XV4)
+
 
 
 ## About :information_source:
