@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     Rigidbody2D rb2d;
+    Animator anime;
     float speed = 6;
     float height = 10;
     float ad, ws;
@@ -51,13 +52,23 @@ public class PlayerController : MonoBehaviour
 
         if (ctrlFlag)
         {
+            if (Input.GetKey(KeyCode.D))
+            {
 
-
-
+                transform.eulerAngles = new Vector2(0, 0);
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                transform.eulerAngles = new Vector2(0, 180);
+            }
+            int layerMask = LayerMask.GetMask("Platform");
+            RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position - new Vector3(0, 1.0f), Vector2.down, 0.25f, layerMask);
+            Debug.DrawRay(gameObject.transform.position - new Vector3(0, 1.0f), Vector2.down, Color.green);
 
             move = ad * speed;
-            if (jump && grounded)
+            if (jump && hit)
             {
+                print("jump");
                 rb2d.velocity = new Vector2(rb2d.velocity.x, 1 * height);
             }
             rb2d.velocity = new Vector2(move, rb2d.velocity.y);
