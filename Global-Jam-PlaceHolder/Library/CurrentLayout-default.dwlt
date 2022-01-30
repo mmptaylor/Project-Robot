@@ -17,7 +17,7 @@ MonoBehaviour:
     x: 0
     y: 43
     width: 1920
-    height: 989
+    height: 1117
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
@@ -45,6 +45,9 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1920
+<<<<<<< HEAD
+    height: 1117
+=======
     height: 989
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -93,7 +96,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 969
+    y: 1097
     width: 1920
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -261,7 +264,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: InspectorWindow
   m_EditorClassIdentifier: 
@@ -618,7 +621,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/PlatformerTest
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\Joshua\Documents\Humber\GameJam\Game-Jam-Project\Global-Jam-PlaceHolder
+  m_LastProjectPath: F:\Game Jam 2022\Game-Jam-Project\Global-Jam-PlaceHolder
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -730,9 +733,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 749
-    width: 1643
-    height: 250
+    y: 750
+    width: 1423
+    height: 369
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &18
 MonoBehaviour:
@@ -758,6 +761,7 @@ MonoBehaviour:
     y: 73
     width: 400
     height: 918
+>>>>>>> origin/main
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
