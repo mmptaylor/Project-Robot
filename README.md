@@ -1,14 +1,10 @@
 
 
 <p align="center">
-<a href="https://http.cat/404">
+<a href="https://ckrcok.github.io/Project-Robot/">
   <img src="Global-Jam-PlaceHolder\Assets\Icons\PROJECT ROBOTO.png" width="150" title="hover text">
   </a>
 </p>
-<h1 align="center">Josh Fight - The Video Game</h1>
-
-[<img  src="https://http.cat/404" align="center" width="100%">](https://www.youtube.com/embed/q-aD6699XV4)
-
 
 ## About :information_source:
 Our Game is made during the <a href="https://globalgamejam.org/"> Global Game Jam 2022 </a>, during a period of 48 hours. writing in C# and using the Unity Engine.
@@ -25,11 +21,13 @@ Click On <code><a href="https://trello.com/b/w4YN2zzY/project-robot"><img src="h
 
 # controls
 
-###### A, W, S, D - movment
+###### A, W, S, D - movement
 
 ###### Space Bar - Jump
 
-###### Left Ctrl - switch between characters
+###### E - Access The terminal
+
+###### Left Ctrl - Switch Between Characters
 
 [Picutre of controls]
 
@@ -42,17 +40,17 @@ Click On The Logo To Play The Game Online
 
 ## About the team :star2:
 
-The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a>, <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a>, <a href="">Dominic Maximo </a>, <a href="">Derek Sparks</a>, <a href="">Ruslan Yeltsor</a>, <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a>, <a href="">Matthew Talyor</a>, <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> and <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>.
+The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a>, <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a>, <a href="https://www.linkedin.com/in/dominic-maximo-847491230/">Dominic Maximo </a>, <a href="https://www.linkedin.com/in/derek-s-03672b10a/">Derek Sparks</a>, <a href="https://www.linkedin.com/in/ruslan-yeltsov-859561230/">Ruslan Yeltsor</a>, <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a>, <a href="https://www.linkedin.com/in/matthew-taylor-330067185/">Matthew Talyor</a>, <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> and <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>.
 
 ###### Roles In The Project
 
 | Name        | Role           |
 | :-------------: |:-------------:|
 |  <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>   | Lead |
-| <a href="">Dominic Maximo</a>     | Artist      |
+| <a href="https://www.linkedin.com/in/dominic-maximo-847491230/">Dominic Maximo</a>     | Artist      |
 | <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a> &  <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> | Designers      |
-| <a href="">Derek Sparks</a> & <a href="">Ruslan Yeltsor</a>  | Sound      |
-| <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a> & <a href="">Matthew Talyor</a> & <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a> | Programming      |
+| <a href="https://www.linkedin.com/in/derek-s-03672b10a/">Derek Sparks</a> & <a href="https://www.linkedin.com/in/ruslan-yeltsov-859561230/">Ruslan Yeltsor</a>  | Sound      |
+| <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a> & <a href="https://www.linkedin.com/in/matthew-taylor-330067185/">Matthew Talyor</a> & <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a> | Programming      |
 
 
 # Tech That Was Used In The Project 👩‍💻
@@ -70,6 +68,11 @@ The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98
 
 
 <a href="https://medibangpaint.fandom.com/wiki/MediBang_Paint_Wikia"><img src="https://medibangpaint.com/favicon.ico" alt="MediBang" width="20" height="20"/></a> - MediBang
+
+
+<a href="https://www.mapeditor.org/"><img src="https://www.mapeditor.org/img/tiled-logo-white.png" alt="Tiled" width="20" height="20"/></a> - Tiled
+
+<a href="https://www.photopea.com/"><img src="https://www.photopea.com/promo/thumb256.png" alt="PhotoPea" width="20" height="20"/></a> - PhotoPea
 
 ##### Credit
 
