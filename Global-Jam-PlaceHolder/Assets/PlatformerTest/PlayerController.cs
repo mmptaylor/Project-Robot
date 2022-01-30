@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
             }
             else if (Input.GetKey(KeyCode.A))
             {
-                transform.eulerAngles = new Vector2(0, 180);
+                transform.eulerAngles = new Vector2(0, 0);
             }
             int layerMask = LayerMask.GetMask("Platform");
             RaycastHit2D hit = Physics2D.Raycast(gameObject.transform.position - new Vector3(0, 1.0f), Vector2.down, 0.25f, layerMask);
