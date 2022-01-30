@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Disk : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject terminal;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.name == "PlayerAI")
+        {
+            terminal.GetComponent<TerminalScript>().safeFlag = true;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        
+        if (other.gameObject.name == "PlayerAI")
+        {
+            terminal.GetComponent<TerminalScript>().safeFlag = false;
+        }
     }
 }
