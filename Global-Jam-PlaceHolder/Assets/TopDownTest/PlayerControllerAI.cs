@@ -5,10 +5,13 @@ using UnityEngine;
 public class PlayerControllerAI : MonoBehaviour
 {
     bool ctrlFlag;
+    public bool isLoaded;
+    public bool safeFlag;
     // Start is called before the first frame update
     void Start()
     {
         ctrlFlag = false;
+        safeFlag = false;
     }
 
     // Update is called once per frame
@@ -17,7 +20,7 @@ public class PlayerControllerAI : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl))
             ctrlFlag = !ctrlFlag;
 
-        if (ctrlFlag)
+        if (ctrlFlag && isLoaded)
         {
             int layerMask = LayerMask.GetMask("Platform");
 
