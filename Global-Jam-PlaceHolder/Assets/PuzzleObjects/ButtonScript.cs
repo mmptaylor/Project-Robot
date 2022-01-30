@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-
+    public bool defualt;
     bool switchS = false;
     public GameObject Activates;
     // Start is called before the first frame update
@@ -20,7 +20,7 @@ public class ButtonScript : MonoBehaviour
     {
         if (other.gameObject.name == "Box")
         {
-            switchS = true;
+            switchS = defualt;
             Activates.SetActive(switchS);
         }
     }
@@ -29,7 +29,7 @@ public class ButtonScript : MonoBehaviour
     {
         if (other.gameObject.name == "Box")
         {
-            switchS = false;
+            switchS = !defualt;
             Activates.SetActive(switchS);
         }
     }

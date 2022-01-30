@@ -34,7 +34,7 @@ public class MovingPlatform : MonoBehaviour
                 if (transform.position.x > pos2.transform.position.x)
                 {
                     pos = !pos;
-                    print("switch");
+                    //print("switch");
                 }
             }
             else if (pos)

@@ -8,20 +8,51 @@ public class TerminalScript : MonoBehaviour
     public GameObject terminalScreen;
     public int x;
     public int y;
+    private string nameVar;
+    bool clickFlag;
 
     private void Start()
     {
         cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
+        clickFlag = false;
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
 
+
+            if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == true )
+            {
+                print("floppyIn");
+                cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
+                cam.transform.position = new Vector3(x, y, -10);
+                GameObject.Find("Player").GetComponent<PlayerController>().hasAI = false;
+                GameObject.Find("Player").GetComponent<PlayerController>().pcAI = gameObject.name;
+                clickFlag = false;
+            }
+            else if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == false && GameObject.Find("Player").GetComponent<PlayerController>().pcAI == gameObject.name)
+            {
+                print("floppyOut");
+                GameObject.Find("Player").GetComponent<PlayerController>().hasAI = true;
+                GameObject.Find("Player").GetComponent<PlayerController>().pcAI = "empty";
+                clickFlag = false;
+            }
+        }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        // if (Input.GetKeyDown(KeyCode.E))
-        //{
-        cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
-        cam.transform.position = new Vector3(x, y, -10);
-       // }
+        if (other.gameObject.name == "Player")
+        {
+            clickFlag = true;
+            //print("click");
+        }
+        else
+        {
+            clickFlag = false;
+        }
+
     }
 
 }

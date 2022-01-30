@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     float ad, ws;
     float jHeight = 4f;
     bool jump, grounded, ctrlFlag;
-
+    public bool hasAI;
+    public string pcAI;
     Vector3 overlap;
     public LayerMask ground;
 
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        hasAI = true;
         ctrlFlag = true;
         rb2d = GetComponent<Rigidbody2D>();
     }
