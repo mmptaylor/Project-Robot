@@ -58,9 +58,7 @@ The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98
 
 <a align="center" href="https://en.wikipedia.org/wiki/Unity_(game_engine)"><img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" alt="Unity" width="20" height="20"/></a> - Unity   
 
-<a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" alt="Bash" width="50" height="20"/></a> - Bash
-
-
+<a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src="https://gitforwindows.org/img/git_logo.png" alt="Bash" width="20" height="20"/></a> - Bash
 
 
 <a href="https://en.wikipedia.org/wiki/Git"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="50" height="20"/></a> - Git
