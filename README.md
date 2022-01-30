@@ -71,5 +71,8 @@ The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98
 
 <a href="https://medibangpaint.fandom.com/wiki/MediBang_Paint_Wikia"><img src="https://medibangpaint.com/favicon.ico" alt="MediBang" width="20" height="20"/></a> - MediBang
 
+##### Credit
+
+Menu Audio - by <a href = "https://linktr.ee/SoupTonic">SoupTOnic</a>
 
 # Show Case
