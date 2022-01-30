@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
 
             grounded = Physics2D.OverlapCircle(overlap, 0.5f, ground);
             //if the jumpButton is pressed and the player is grounded then the velocity of y for rb2d changes to 1 * speed causing the player to jump
-            print(grounded);
+           // print(grounded);
         }
         
 
