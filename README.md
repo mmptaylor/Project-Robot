@@ -42,7 +42,7 @@ Click On The Logo To Play The Game Online
 
 ## About the team :star2:
 
-The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a>, <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a>, <a href="">Dominic Maximo </a>, <a href="">Derek Sparks</a>, <a href="">Ruslan Yeltsor</a>, <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a>, <a href="">Matthew Talyor</a>, <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> and <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>.
+The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a>, <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a>, <a href="https://www.linkedin.com/in/dominic-maximo-847491230/">Dominic Maximo </a>, <a href="">Derek Sparks</a>, <a href="">Ruslan Yeltsor</a>, <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a>, <a href="">Matthew Talyor</a>, <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> and <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>.
 
 ###### Roles In The Project
 
