@@ -11,7 +11,8 @@ public class PlayerController : MonoBehaviour
     float ad, ws;
     float jHeight = 4f;
     bool jump, grounded, ctrlFlag;
-
+    public bool hasAI;
+    public string pcAI;
     Vector3 overlap;
     public LayerMask ground;
 
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
+        hasAI = true;
         ctrlFlag = true;
         rb2d = GetComponent<Rigidbody2D>();
     }
@@ -40,7 +42,7 @@ public class PlayerController : MonoBehaviour
 
             grounded = Physics2D.OverlapCircle(overlap, 0.5f, ground);
             //if the jumpButton is pressed and the player is grounded then the velocity of y for rb2d changes to 1 * speed causing the player to jump
-            print(grounded);
+           // print(grounded);
         }
         
 

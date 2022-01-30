@@ -18,6 +18,7 @@ public class MovingPlatform : MonoBehaviour
         pos2 = GameObject.Find("Pos2");
         rb2d = GetComponent<Rigidbody2D>();
         pos = true;
+        speed = 2;
     }
 
     // Update is called once per frame
@@ -25,17 +26,22 @@ public class MovingPlatform : MonoBehaviour
     {
         if (moving)
         {
-            if (pos)
+            if (!pos)
             {
-                rb2d.velocity = new Vector2(speed, 0);
+                // rb2d.velocity = new Vector2(speed, 0);
+                transform.position += new Vector3(speed * 0.01f,0f, 0);
+                rb2d.velocity = new Vector3(5, 0, 0);
                 if (transform.position.x > pos2.transform.position.x)
                 {
                     pos = !pos;
+                    //print("switch");
                 }
             }
-            else if (!pos)
+            else if (pos)
             {
-                 rb2d.velocity = new Vector2(speed, 0);
+                //  rb2d.velocity = new Vector2(speed, 0);
+                transform.position -= new Vector3(speed * 0.01f, 0f, 0);
+                rb2d.velocity = new Vector3(-5, 0, 0);
                 if (transform.position.x < pos1.transform.position.x)
                 {
                     pos = !pos;

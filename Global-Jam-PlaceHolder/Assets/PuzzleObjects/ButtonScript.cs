@@ -4,18 +4,34 @@ using UnityEngine;
 
 public class ButtonScript : MonoBehaviour
 {
-
+    public bool defualt;
+    bool switchS = false;
     public GameObject Activates;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
-    void Update()
+
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.gameObject.name == "Box")
+        {
+            switchS = defualt;
+            Activates.SetActive(switchS);
+        }
+    }
+    
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.name == "Box")
+        {
+            switchS = !defualt;
+            Activates.SetActive(switchS);
+        }
     }
 
 
