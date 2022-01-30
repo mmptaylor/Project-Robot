@@ -9,7 +9,8 @@ public class TerminalScript : MonoBehaviour
     public GameObject terminalScreen;
     private string nameVar;
     bool clickFlag;
-    static int previousLevel;
+    
+
 
     private void Start()
     {
@@ -27,7 +28,7 @@ public class TerminalScript : MonoBehaviour
                 print("floppyIn");
                 cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
                 GameObject.Find("Player").GetComponent<PlayerController>().hasAI = false;
-                clickFlag = false;
+
             }
             else if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == false)
             {
@@ -35,13 +36,24 @@ public class TerminalScript : MonoBehaviour
                 if (GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().safeFlag)
                 {
                     GameObject.Find("Player").GetComponent<PlayerController>().hasAI = true;
-                    clickFlag = false;
+
                 }
                 else
                 {
-                    previousLevel = SceneManager.GetActiveScene().buildIndex;
-                    print(previousLevel);
-                    SceneManager.LoadScene("Lose", LoadSceneMode.Additive);
+                    //GameObject.Find("LoseOverlay").SetActive(true);
+                    //GameObject.Find("MainCamera").SetActive(false);
+                    //GameObject.Find("TopDownCamera").SetActive(false);
+                    //GameObject.Find("Lose Menu").SetActive(true);
+                    //GameObject.Find("Lose Camera").SetActive(true);
+                    
+                    //mainCamera.SetActive(false);
+                    //topDownCamera.SetActive(false);
+                    //Time.timeScale = 0f;                   
+                    //GameManager.previousLevel = SceneManager.GetActiveScene().buildIndex;
+                    //print(previousLevel);
+                    //SceneManager.SetActiveScene(SceneManager.GetSceneByName("Lose"));
+                    SceneManager.LoadScene("Lose");
+
                 }
             }
         }

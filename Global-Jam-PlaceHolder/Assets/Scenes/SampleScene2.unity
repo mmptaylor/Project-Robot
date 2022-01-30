@@ -1411,6 +1411,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1418643980}
     - target: {fileID: 8639689422297398253, guid: 6781593247bb57f49b161916f86ac17c, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 519420028}
+    - target: {fileID: 8639689422297398253, guid: 6781593247bb57f49b161916f86ac17c, type: 3}
+      propertyPath: LoseOverlay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8639689422297398253, guid: 6781593247bb57f49b161916f86ac17c, type: 3}
+      propertyPath: topDownCamera
+      value: 
+      objectReference: {fileID: 1418643978}
+    - target: {fileID: 8639689422297398253, guid: 6781593247bb57f49b161916f86ac17c, type: 3}
       propertyPath: terminalScreen
       value: 
       objectReference: {fileID: 1829225715}
