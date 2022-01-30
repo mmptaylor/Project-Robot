@@ -19,7 +19,7 @@ public class Exit : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        if (other.gameObject.name == "Player")
+        if (other.gameObject.name == "Player" && GameObject.Find("Player").GetComponent<PlayerController>().hasAI)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
