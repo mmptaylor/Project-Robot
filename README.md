@@ -61,7 +61,7 @@ The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98
 <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src="https://orion42.net/wp-content/uploads/2019/10/full_colored_dark_green42.png" alt="Bash" width="20" height="20"/></a> - Bash
 
 
-<a href="https://en.wikipedia.org/wiki/Git"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="50" height="20"/></a> - Git
+<a href="https://en.wikipedia.org/wiki/Git"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="20" height="20"/></a> - Git
 
 <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-line.svg" alt="C#" width="20" height="20"/></a> - C#
 
