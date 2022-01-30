@@ -10,6 +10,12 @@ public class Lose : MonoBehaviour
         SceneManager.LoadScene(0);
     }
 
+    //public void Retry()
+    //{
+    //    Debug.Log(SceneManager.GetActiveScene().buildIndex);
+    //}
+
+    
     public void QuitGame()
     {
         Debug.Log("Quit");
