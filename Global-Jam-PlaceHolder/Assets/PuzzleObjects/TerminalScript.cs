@@ -8,6 +8,7 @@ public class TerminalScript : MonoBehaviour
     public GameObject terminalScreen;
     public int x;
     public int y;
+    public bool safeFlag;
     private string nameVar;
     bool clickFlag;
 
@@ -15,6 +16,7 @@ public class TerminalScript : MonoBehaviour
     {
         cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
         clickFlag = false;
+        safeFlag = false;
     }
     private void Update()
     {
@@ -26,7 +28,7 @@ public class TerminalScript : MonoBehaviour
             {
                 print("floppyIn");
                 cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
-                cam.transform.position = new Vector3(x, y, -10);
+               // cam.transform.position = new Vector3(x, y, -10);
                 GameObject.Find("Player").GetComponent<PlayerController>().hasAI = false;
                 GameObject.Find("Player").GetComponent<PlayerController>().pcAI = gameObject.name;
                 clickFlag = false;
