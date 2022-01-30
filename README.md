@@ -56,14 +56,16 @@ The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98
 # Tech That Was Used In The Project 👩‍💻
 
 
-<a align="center" href="https://en.wikipedia.org/wiki/Unity_(game_engine)"><img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" alt="Unity" width="50" height="50"/></a> - Unity
+<a align="center" href="https://en.wikipedia.org/wiki/Unity_(game_engine)"><img src="https://github.com/devicons/devicon/blob/master/icons/unity/unity-original.svg" alt="Unity" width="20" height="20"/></a> - Unity   
+
+<a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" alt="Bash" width="50" height="20"/></a> - Bash
 
 
-<a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)"><img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" alt="Bash" width="50" height="50"/></a> - Bash
 
-<a href="https://en.wikipedia.org/wiki/Git"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="50" height="50"/></a> - Git
 
-<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-line.svg" alt="C#" width="50" height="50"/></a> - C#
+<a href="https://en.wikipedia.org/wiki/Git"><img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" alt="Git" width="50" height="20"/></a> - Git
+
+<a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)"><img src="https://github.com/devicons/devicon/blob/master/icons/csharp/csharp-line.svg" alt="C#" width="20" height="20"/></a> - C#
 
 
 
