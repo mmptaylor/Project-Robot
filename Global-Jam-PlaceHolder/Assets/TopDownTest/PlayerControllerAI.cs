@@ -33,7 +33,7 @@ public class PlayerControllerAI : MonoBehaviour
 
                 if (hit.collider == null)
                 {
-                    transform.position += new Vector3(-0.89f, 0, 0);
+                    transform.position += new Vector3(-1f, 0, 0);
                 }
             }
             if (Input.GetKeyDown(KeyCode.D))
@@ -42,7 +42,7 @@ public class PlayerControllerAI : MonoBehaviour
 
                 if (hit.collider == null)
                 {
-                    transform.position += new Vector3(0.89f, 0, 0);
+                    transform.position += new Vector3(1f, 0, 0);
                 }
             }
             if (Input.GetKeyDown(KeyCode.W))
@@ -51,7 +51,7 @@ public class PlayerControllerAI : MonoBehaviour
 
                 if (hit.collider == null)
                 {
-                    transform.position += new Vector3(0f, 0.89f, 0);
+                    transform.position += new Vector3(0f, 1f, 0);
                 }
             }
             if (Input.GetKeyDown(KeyCode.S))
@@ -61,7 +61,7 @@ public class PlayerControllerAI : MonoBehaviour
                 if (hit.collider == null)
                 {
 
-                    transform.position += new Vector3(0, -0.89f, 0);
+                    transform.position += new Vector3(0, -1f, 0);
                 }
             }
 
