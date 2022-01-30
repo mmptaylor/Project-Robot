@@ -33,6 +33,14 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.LeftControl))
             ctrlFlag = !ctrlFlag;
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.eulerAngles = new Vector2(0, 0);
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            transform.eulerAngles = new Vector2(0, 180);
+        }
         if (ctrlFlag)
         {
             overlap = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 0.35f, gameObject.transform.position.y);
