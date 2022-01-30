@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+
 public class Lose : MonoBehaviour
 
 {
+    int retryLevel;
+
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
@@ -13,7 +17,8 @@ public class Lose : MonoBehaviour
 
     public void Retry()
     {
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //retryLevel = GameObject.Find("Terminal(1)").GetComponent<TerminalScript>().previousLevel;
+        //SceneManager.LoadScene(retryLevel);
         //Debug.Log(SceneManager.GetActiveScene().buildIndex);
     }
 
