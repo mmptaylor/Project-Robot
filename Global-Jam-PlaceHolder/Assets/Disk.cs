@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Disk : MonoBehaviour
 {
-    public GameObject terminal;
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.name == "PlayerAI")
         {
-            terminal.GetComponent<TerminalScript>().safeFlag = true;
+            GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().safeFlag = true;
         }
     }
 
@@ -18,7 +17,7 @@ public class Disk : MonoBehaviour
     {
         if (other.gameObject.name == "PlayerAI")
         {
-            terminal.GetComponent<TerminalScript>().safeFlag = false;
+            GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().safeFlag = false;
         }
     }
 }

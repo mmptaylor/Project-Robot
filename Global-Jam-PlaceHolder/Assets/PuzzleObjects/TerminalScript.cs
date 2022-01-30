@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class TerminalScript : MonoBehaviour
 {
     public Camera cam;
     public GameObject terminalScreen;
-    public int x;
-    public int y;
-    public bool safeFlag;
+    //public int x;
+    //public int y;
     private string nameVar;
     bool clickFlag;
 
@@ -16,7 +16,6 @@ public class TerminalScript : MonoBehaviour
     {
         cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
         clickFlag = false;
-        safeFlag = false;
     }
     private void Update()
     {
@@ -28,33 +27,44 @@ public class TerminalScript : MonoBehaviour
             {
                 print("floppyIn");
                 cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
-               // cam.transform.position = new Vector3(x, y, -10);
+                //cam.transform.Translate(0, 0, -10);
                 GameObject.Find("Player").GetComponent<PlayerController>().hasAI = false;
-                GameObject.Find("Player").GetComponent<PlayerController>().pcAI = gameObject.name;
+                //GameObject.Find("Player").GetComponent<PlayerController>().pcAI = gameObject.name;
+                GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().isLoaded = true;
                 clickFlag = false;
             }
-            else if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == false && GameObject.Find("Player").GetComponent<PlayerController>().pcAI == gameObject.name)
+            else if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == false) //&& GameObject.Find("Player").GetComponent<PlayerController>().pcAI == gameObject.name)
             {
                 print("floppyOut");
-                GameObject.Find("Player").GetComponent<PlayerController>().hasAI = true;
-                GameObject.Find("Player").GetComponent<PlayerController>().pcAI = "empty";
-                clickFlag = false;
+                if (GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().safeFlag)
+                {
+                    //cam.transform.Translate(0, 0, -10);
+                    GameObject.Find("Player").GetComponent<PlayerController>().hasAI = true;
+                    GameObject.Find("Player").GetComponent<PlayerController>().pcAI = "empty";
+                    GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().isLoaded = false;
+                    clickFlag = false;
+                }
+                else
+                {
+                    SceneManager.LoadScene("Lose");
+                }
             }
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.name == "Player")
         {
             clickFlag = true;
-            //print("click");
         }
-        else
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.name == "Player")
         {
             clickFlag = false;
         }
-
     }
-
 }
