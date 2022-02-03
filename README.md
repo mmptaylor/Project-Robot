@@ -80,3 +80,4 @@ The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98
 Menu Audio - by <a href = "https://linktr.ee/SoupTonic">SoupTOnic</a>
 
 # Show Case
+<img  src="Global-Jam-PlaceHolder/Assets/ShowCase/GameShowCase.gif" align="center" width="100%">
