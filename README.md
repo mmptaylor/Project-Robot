@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<a href="https://http.cat/404">
+<a href="https://ckrcok.github.io/Project-Robot/">
   <img src="Global-Jam-PlaceHolder\Assets\Icons\PROJECT ROBOTO.png" width="150" title="hover text">
   </a>
 </p>
@@ -31,12 +31,16 @@ Click On <code><a href="https://trello.com/b/w4YN2zzY/project-robot"><img src="h
 
 ###### Left Ctrl - switch between characters
 
-[Picutre of controls]
-
 <hr>
+
 <h1 align="center">
 Click On The Logo To Play The Game Online
 </h1>
+<p align="center">
+<a href="https://ckrcok.github.io/Project-Robot/">
+  <img src="Global-Jam-PlaceHolder\Assets\Icons\PROJECT ROBOTO.png" width="150" title="hover text">
+  </a>
+</p>
 <hr>
 <h1 align="center">Project Robot</h1>
 
