@@ -7,7 +7,7 @@
 </p>
 <h1 align="center">Josh Fight - The Video Game</h1>
 
-[<img  src="https://http.cat/404" align="center" width="100%">](https://www.youtube.com/embed/q-aD6699XV4)
+[<img  src="https://http.cat/404" align="center" width="100%">](https://youtu.be/5LoLkSeeNsA)
 
 
 ## About :information_source:
