@@ -7,6 +7,10 @@ public class TerminalScript : MonoBehaviour
 {
     public Camera cam;
     public GameObject terminalScreen;
+    public Animator anime;
+    //public int x;
+    //public int y;
+
     private string nameVar;
     bool clickFlag;
     
@@ -15,6 +19,7 @@ public class TerminalScript : MonoBehaviour
     private void Start()
     {
         cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
+        anime = GetComponent<Animator>();
         clickFlag = false;
     }
     private void Update()
@@ -26,6 +31,7 @@ public class TerminalScript : MonoBehaviour
             if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == true )
             {
                 print("floppyIn");
+                anime.SetBool("OnOff", true);
                 cam = GameObject.Find("Topdown Camera").GetComponent<Camera>();
                 GameObject.Find("Player").GetComponent<PlayerController>().hasAI = false;
 
@@ -33,6 +39,7 @@ public class TerminalScript : MonoBehaviour
             else if (clickFlag && GameObject.Find("Player").GetComponent<PlayerController>().hasAI == false)
             {
                 print("floppyOut");
+                anime.SetBool("OnOff", false);
                 if (GameObject.Find("PlayerAI").GetComponent<PlayerControllerAI>().safeFlag)
                 {
                     GameObject.Find("Player").GetComponent<PlayerController>().hasAI = true;
