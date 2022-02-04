@@ -9,7 +9,7 @@
 
 
 <p align="center" font-size="46px" >
-Click on the Thumbnail to watch the Video -  
+<sub> Click on the Thumbnail to watch the Video -  </sub>
 <a href="https://youtu.be/5LoLkSeeNsA">
   <img src="Global-Jam-PlaceHolder\Assets\Menu Art\Thumbnail.png" width="50%" title="hover text">
   </a>
@@ -48,7 +48,7 @@ Click On The Logo To Play The Game Online
   </a>
 </p>
 <hr>
-<h1 align="center">Project Robot</h1>
+
 
 ## About the team :star2:
 
