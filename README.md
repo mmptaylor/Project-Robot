@@ -23,7 +23,7 @@ The game was develop for the game jam in the program of <a href="https://mediaar
 
 
 
-To View Our Project Documentation Click on The Book <a href ="https://docs.google.com/document/d/1-xEH_DGoglEEbAaSQ8y95tqK2gbJKjUk6SJT4-Sk64w/edit?usp=sharing"> :open_book:</a>
+To View Our Project Postmortem Click on The Book <a href ="https://docs.google.com/document/d/e/2PACX-1vRO9Iq8-W2Hv3m1nCRg9LAWHX3Nni74lTlCuuluuKhSyuWNuGqsyCdXyiAZ2BB4Bw0m4qCeGjubTxmx/pub"> :open_book:</a>
 
 Click On <code><a href="https://trello.com/b/w4YN2zzY/project-robot"><img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain-wordmark.svg" alt="Trello board" width="60" height="60"/></a></code> To Go To Our Public Trello Board
 
@@ -52,17 +52,17 @@ Click On The Logo To Play The Game Online
 
 ## About the team :star2:
 
-The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a>, <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a>, <a href="">Dominic Maximo </a>, <a href="">Derek Sparks</a>, <a href="">Ruslan Yeltsor</a>, <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a>, <a href="">Matthew Talyor</a>, <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> and <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>.
+The Robot team consists of <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a>, <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a>, <a href="https://www.linkedin.com/in/dominic-maximo-847491230/">Dominic Maximo </a>, <a href="https://www.linkedin.com/in/derek-s-03672b10a/">Derek Sparks</a>, <a href="https://www.linkedin.com/in/ruslan-yeltsov-859561230/">Ruslan Yeltsor</a>, <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a>, <a href="https://www.linkedin.com/in/matthew-taylor-330067185/">Matthew Talyor</a>, <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> and <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>.
 
 ###### Roles In The Project
 
 | Name        | Role           |
 | :-------------: |:-------------:|
 |  <a href="https://www.linkedin.com/in/dorz/">Dor Zairi</a>   | Lead |
-| <a href="">Dominic Maximo</a>     | Artist      |
+| <a href="https://www.linkedin.com/in/dominic-maximo-847491230/">Dominic Maximo</a>     | Artist      |
 | <a href="https://www.linkedin.com/in/moses-mckeon-90212a221/">Moses Mckeon</a> &  <a href="https://www.linkedin.com/in/jacob-bruce-93224522b/">Jacob Bruce</a> | Designers      |
-| <a href="">Derek Sparks</a> & <a href="">Ruslan Yeltsor</a>  | Sound      |
-| <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a> & <a href="">Matthew Talyor</a> & <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a> | Programming      |
+| <a href="https://www.linkedin.com/in/derek-s-03672b10a/">Derek Sparks</a> & <a href="https://www.linkedin.com/in/ruslan-yeltsov-859561230/">Ruslan Yeltsor</a>  | Sound      |
+| <a href="https://www.linkedin.com/in/joshua-ross-a168a41b3/">Joshua Ross</a> & <a href="https://www.linkedin.com/in/matthew-taylor-330067185/">Matthew Talyor</a> & <a href="https://www.linkedin.com/in/amelia-morton-98231899/">Amelia Morton</a> | Programming      |
 
 
 # Tech That Was Used In The Project 👩‍💻
