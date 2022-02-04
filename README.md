@@ -7,8 +7,14 @@
 </p>
 <h1 align="center">Josh Fight - The Video Game</h1>
 
-[<img  src="https://http.cat/404" align="center" width="100%">](https://youtu.be/5LoLkSeeNsA)
 
+<p align="center" font-size="46px" >
+Click on the Thumbnail to watch the Video -  
+<a href="https://youtu.be/5LoLkSeeNsA">
+  <img src="Global-Jam-PlaceHolder\Assets\Menu Art\Thumbnail.png" width="50%" title="hover text">
+  </a>
+</p>
+<h1 align="center">Josh Fight - The Video Game</h1>
 
 ## About :information_source:
 Our Game is made during the <a href="https://globalgamejam.org/"> Global Game Jam 2022 </a>, during a period of 48 hours. writing in C# and using the Unity Engine.
